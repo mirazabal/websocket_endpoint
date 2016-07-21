@@ -1,0 +1,3 @@
+/home/mikel/workspace/websocket_endpoint_raspi/build/CMakeFiles/edit_cache.dir
+/home/mikel/workspace/websocket_endpoint_raspi/build/CMakeFiles/rebuild_cache.dir
+/home/mikel/workspace/websocket_endpoint_raspi/build/CMakeFiles/websocket_endpoint.dir

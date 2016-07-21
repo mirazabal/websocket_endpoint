@@ -266,7 +266,8 @@ void websocket_endpoint::send(std::shared_ptr<const std::string> const&  payload
 
 			if (ec)
 			{
-				std::cout << "Send failed, reason:" << ec.message() << std::endl;
+				std::string err{ec.message()};
+				std::cout << "Send failed, reason:" << err << std::endl;
 				throw std::runtime_error( ec.message() );
 			}
 		}
